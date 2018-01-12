@@ -1,40 +1,33 @@
-# Emoji-Picker
+# Kaomoji Picker
+### A Fork of [Rofimoji](https://github.com/fdw/rofimoji)
 
-How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
-Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
-Inserts the selected emoji directly, or copies it to the clipboard.
+An utility to insert kaomoji from Rofi.
 
 ## Usage
 
 1. Run `rofimoji.py`
-2. Search for the emoji you want
+2. Search for the kaomoji you want
 3. - Hit enter to insert the emoji directly
    - Hit `Alt+c` to copy it to the clipboard
-4. 🎠
+4. (* ^ ω ^)
 
 ## Installation
 
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
 
 What else do you need:
-- Python 3
-- A font that can display emoji, for example [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/)
-- xdotool for typing the emoji
-- xsel to copy the emoji to the clipboard
+- Python 2
+- xdotool for typing the text
+- xsel to copy the text to the clipboard
 
 For Ubuntu zesty: `sudo aptitude install python3 fonts-emojione xsel xdotool`
 
-## Updating the emojis
+## Installing
 
-This is only needed if a new Unicode version came out and you can't wait for the official update!
+1. Clone the repository, eg `git clone https://github.com/Longhinus/rofimoji`
+2. Go to the repository `cd rofimoji`
+3. Install Python and `pip install -r requirements-dev.txt`
 
-1. Install Python 3 and `pip install -r requirements-dev.txt`
-2. Run `extract_emojis.py` - this downloads the complete list from https://emojipedia.org/emoji/, so don't do it too often!
-3. A new file `emojis.py` should have been created. Open it and copy the contents
-4. Open `rofimoji.py` and replace the emoji list with the contents of `emojis.py`
+## Change Notes
 
-## FAQ
-
-### Why is it so pedestrian? Why not simple import from `emojis.py`?
-Because now you only have to download one file, and it works 
-Additionally, we need no separate I/O just to load the emojis. This is good, right?
+* I added a delay (30ms) in the xdotool options
