@@ -28,6 +28,9 @@ For Ubuntu zesty: `sudo aptitude install python3 fonts-emojione xsel xdotool`
 2. Go to the repository `cd rofimoji`
 3. Install Python and `pip install -r requirements-dev.txt`
 
+(Optional) Create a bind (~/.config/i3/config) `bindsym $mod+Tab ./usr/local/bin/rofimoji.py`
+(Fellow French) Use 'setxkbmap fr' to have it working correctly
+
 ## Change Notes
 
 * I added a delay (30ms) in the xdotool options
