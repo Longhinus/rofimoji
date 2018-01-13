@@ -430,18 +430,18 @@ w(°ｏ°)w⠀Surprise, 1
 (o´▽`o)ﾉ⠀Greeting, 27
 (￣▽￣)/⠀Greeting, 28
 
-(づ￣ ³￣)づ⠀Hugginh, 1
-(つ≧▽≦)つ⠀Hugginh, 2
-(つ✧ω✧)つ⠀Hugginh, 3
-(づ ◕‿◕ )づ⠀Hugginh, 4
-(⊃｡•́‿•̀｡)⊃⠀Hugginh, 5
-(つ . •́ _ʖ •̀ .)つ⠀Hugginh, 6
-(っಠ‿ಠ)っ⠀Hugginh, 7
-(づ◡﹏◡)づ⠀Hugginh, 8
-⊂(´• ω •`⊂)⠀Hugginh, 9
-⊂(･ω･*⊂)⠀Hugginh, 10
-⊂(￣▽￣)⊃⠀Hugginh, 11
-⊂( ´ ▽ ` )⊃⠀Hugginh, 12
+(づ￣ ³￣)づ⠀Hugging, 1
+(つ≧▽≦)つ⠀Hugging, 2
+(つ✧ω✧)つ⠀Hugging, 3
+(づ ◕‿◕ )づ⠀Hugging, 4
+(⊃｡•́‿•̀｡)⊃⠀Hugging, 5
+(つ . •́ _ʖ •̀ .)つ⠀Hugging, 6
+(っಠ‿ಠ)っ⠀Hugging, 7
+(づ◡﹏◡)づ⠀Hugging, 8
+⊂(´• ω •`⊂)⠀Hugging, 9
+⊂(･ω･*⊂)⠀Hugging, 10
+⊂(￣▽￣)⊃⠀Hugging, 11
+⊂( ´ ▽ ` )⊃⠀Hugging, 12
 
 (^_~)⠀Winking, 1
 ( ﾟｏ⌒)⠀Winking, 2
