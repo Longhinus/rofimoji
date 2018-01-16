@@ -3,7 +3,7 @@
 
 from subprocess import Popen, PIPE
 import sys
-reload(sys)  # Reload does the trick!
+reload(sys)
 sys.setdefaultencoding('UTF8')
 
 
@@ -12765,9 +12765,8 @@ else:
                 'xdotool',
                 'type',
                 '--delay',
-                '32',
+                '50',
                 '--clearmodifiers',
-                #emoji.decode('utf-8')
                 emoji
                 ]
         )
